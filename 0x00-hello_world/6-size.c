@@ -1,53 +1,26 @@
-
 #include <stdio.h>
 
-
 /**
-
- * main - Prints numbers from 0 to 9.
-
- *
-
- * Return: Always 0 (Success)
-
+ * main - initializing main function
+ * Return: returns 0
  */
-
 int main(void)
-
 {
+	char c;
+	int i;
+	long int li;
+	long long int lli;
+	float f;
 
-        int i;
+	printf("Size of a char: %lu byte(s)\n", sizeof(c));
 
+	printf("Size of an int: %lu byte(s)\n", sizeof(i));
 
-        for (i = 48; i < 58; i++)
+	printf("Size of a long int: %lu byte(s)\n", sizeof(li));
 
-        {
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(lli));
 
-                putchar(i);
+	printf("Size of a float: %lu byte(s)\n", sizeof(f));
 
-        }
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	return (0);
+}
